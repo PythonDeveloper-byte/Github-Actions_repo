@@ -1,11 +1,6 @@
 name: workflow events
 
-on: 
-  push:
-  pull_request:
-  schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
-  workflow_dispatch:
+on:  workflow_dispatch
 
 jobs:
   echo:
